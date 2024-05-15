@@ -6,6 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
 
 <p>We Need your Location Details to proceed further.</p>
+    <p>please input them</p>
 
 <button onclick="getLocation()">Allow Location</button>
 
