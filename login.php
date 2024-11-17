@@ -8,7 +8,7 @@
       $password = md5($_POST['password']);
 
 
-      // To protect MySQL injectionss (more detail about MySQL injection)
+      // To protect MySQL injection (more detail about MySQL injection)
       $email = stripslashes($email);
       $password = stripslashes($password);
       $sql = "SELECT * FROM users WHERE email='$email' and password='$password'";
