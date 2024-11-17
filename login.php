@@ -1,7 +1,7 @@
   <?php require 'includes/common.php';
   if(isset($_REQUEST['submit'])) {
 
-      //  echo "123";
+      //  echo  "123";
 
       $email = $_POST['e-mail'];
       
